@@ -1,0 +1,17 @@
+.logo {
+	width: 109px;
+	height: 48px;
+
+	.link {
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-image: url(../../img/icon/logo.svg);
+	}
+
+	&_white {
+		.link {
+			background-image: url(../../img/icon/logo-white.svg);
+		}
+	}
+}

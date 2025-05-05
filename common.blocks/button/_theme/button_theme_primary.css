@@ -1,0 +1,25 @@
+.button_theme_primary {
+  background-color: var(--Orange);
+  border-color: var(--Orange);
+  color: var(--White);
+  outline: 0;
+}
+
+.button_theme_primary.button_hovered {
+  background-color: var(--White);
+  border-color: var(--Orange);
+  color: var(--Orange);
+}
+
+.button_theme_primary.button_pressed {
+  background-color: #db7f63;
+}
+
+
+.button_theme_primary.button_disabled {
+  background-color: #c59789;
+  color: #c59789;
+  cursor: auto;
+  pointer-events: none;
+  user-select: none;
+}

@@ -1,0 +1,26 @@
+.button_theme_arrow-primary {
+  background-color: var(--White);
+  border-color: var(--Black);
+  color: var(--Black);
+  outline: 0;
+  border-width: 1px;
+  background-image: url(../../../img/icon/arrow.svg);
+}
+
+/* .button_theme_arrow-primary.button_hovered {
+  background-color: var(--White);
+  border-color: var(--Orange);
+  color: var(--Orange);
+}
+
+.button_theme_arrow-primary.button_pressed {
+  background-color: #db7f63;
+} */
+
+
+.button_theme_arrow-primary.button_disabled {
+  cursor: auto;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.5;
+}

@@ -1,0 +1,28 @@
+.button_theme_arrow-secondary {
+  background-color: var(--Black-light);
+  border-color: var(--Black-light);
+  color: var(--White);
+  outline: 0;
+  border-width: 1px;
+  background-image: url(../../../img/icon/arrow-white.svg);
+}
+
+/* .button_theme_arrow-secondary.button_hovered {
+  background-color: var(--White);
+  border-color: var(--Orange);
+  color: var(--Orange);
+}
+
+.button_theme_arrow-secondary.button_pressed {
+  background-color: #db7f63;
+} */
+
+
+.button_theme_arrow-secondary.button_disabled {
+  background-color: var(--White);
+  border-color: var(--Black);
+  cursor: auto;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.5;
+}

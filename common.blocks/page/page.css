@@ -1,0 +1,20 @@
+:root {
+  --Black: #0B0B0B;
+  --Black-light: #272d33;
+  --White: #ffffff;
+  --Yellow: #f7ca43;
+  --Orange: #e87c5a;
+  --Gray: #808080;
+  --Gray-light: #e2e2e2;
+  --Blue: #1163dd;
+
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.page {
+  -webkit-tap-highlight-color: transparent;
+}

@@ -1,0 +1,74 @@
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  flex-shrink: 0;
+
+  &_size {
+
+    &_s {
+      width: 12px;
+      height: 12px;
+    }
+
+    &_m {
+      width: 16px;
+      height: 16px;
+    }
+
+    &_l {
+      width: 22px;
+      height: 22px;
+    }
+
+    &_xl {
+      width: 24px;
+      height: 24px;
+    }
+
+    &_2xl {
+      width: 32px;
+      height: 32px;
+    }
+
+    &_3xl {
+      width: 40px;
+      height: 40px;
+    }
+
+    &_4xl {
+      width: 48px;
+      height: 48px;
+    }
+
+    &_5xl {
+      width: 56px;
+      height: 56px;
+    }
+
+    &_6xl {
+      width: 64px;
+      height: 64px;
+    }
+
+    &_7xl {
+      width: 72px;
+      height: 72px;
+    }
+
+    &_8xl {
+      width: 100px;
+      height: 100px;
+    }
+
+    &_9xl {
+      width: 168px;
+      height: 168px;
+    }
+  }
+}
+
+.icon>svg {
+  margin: 0;
+}

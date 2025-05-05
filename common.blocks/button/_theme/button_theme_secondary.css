@@ -1,0 +1,25 @@
+.button_theme_secondary {
+  background-color: var(--White);
+  border-color: var(--Black-light);
+  color: var(--Black-light);
+  outline: 0;
+}
+
+.button_theme_secondary.button_hovered {
+  background-color: var(--Black-light);
+  color: var(--White);
+}
+
+
+.button_theme_secondary.button_pressed {
+  background-color: #2f3338;
+}
+
+
+.button_theme_secondary.button_disabled {
+  background-color: #757779;
+  color: #757779;
+  cursor: auto;
+  pointer-events: none;
+  user-select: none;
+}

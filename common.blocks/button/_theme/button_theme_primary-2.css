@@ -1,0 +1,24 @@
+.button_theme_primary-2 {
+  background-color: var(--Yellow);
+  border-color: var(--Yellow);
+  color: var(--Black-light);
+  outline: 0;
+}
+
+.button_theme_primary-2.button_hovered {
+  background-color: var(#ffca2a);
+  border-color: #ffca2a;
+}
+
+.button_theme_primary-2.button_pressed {
+  background-color: #ffd34e;
+}
+
+
+.button_theme_primary-2.button_disabled {
+  background-color: #c9bea0;
+  color: #c9bea0;
+  cursor: auto;
+  pointer-events: none;
+  user-select: none;
+}
